@@ -3,7 +3,7 @@ import React from "react";
 
 const ToolsAndTechnologies: React.FC = () => {
   return (
-    <div className="flex space-x-4 w-auto">
+    <div className="flex flex-wrap md:flex-nowrap justify-center">
       <ToolIcon name="React.js" src="/images/tools/react.svg" />
       <ToolIcon name="Next.js" src="/images/tools/nextjs.svg" />
       <ToolIcon name="Tailwind CSS" src="/images/tools/tailwind.svg" />

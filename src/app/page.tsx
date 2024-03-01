@@ -4,19 +4,19 @@ import { TypeAnimation } from "react-type-animation";
 import CoderIcon from "./components/CoderIcon";
 import Github from "./components/Github";
 import ToolsAndTechnologies from "./components/ToolsAndTechnologies";
-// Define the Home component that renders the portfolio
+
 export default function Home() {
   return (
-    <main>
-      <div className="flex flex-row mx-auto justify-center items-center ">
-        <div className="w-1/2 ">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
+    <main className="container mx-auto px-4">
+      <div className="flex flex-col md:flex-row justify-center items-center">
+        <div className="w-full md:w-1/2 mb-8 md:mb-0 md:mr-10">
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
             Hi There
           </h1>
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 pb-9">
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 pb-9">
             Welcome to My Portfolio
           </h1>
-          <p>
+          <p className="text-sm md:text-xl line-clamp-2">
             <TypeAnimation
               sequence={[
                 "I'm a React.js Developer",
@@ -25,14 +25,13 @@ export default function Home() {
                 1000,
                 "I'm an IoT Projects Developer",
                 1000,
-
                 "I'm a Circuit Designer",
                 1000,
               ]}
               speed={50}
               repeat={Infinity}
               style={{
-                fontSize: "2.5em",
+                fontSize: "2em",
                 fontWeight: "bold",
                 color: "#4B5563",
               }}
@@ -40,17 +39,17 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="w-1/3">
+        <div className="w-full md:w-1/2 mb-8 md:mb-0 flex justify-center">
           <CoderIcon />
         </div>
       </div>
 
       <div className="flex flex-col items-center justify-center py-12">
-        <p className="text-3xl font-bold text-gray-800 mb-10">
+        <p className="text-xl md:text-3xl font-bold text-gray-800 mb-10">
           Tools And Technologies I Use
         </p>
         <ToolsAndTechnologies />
-        <p className="text-3xl font-bold text-gray-600 dark:text-gray-300 mt-32">
+        <p className="text-xl md:text-3xl font-bold text-gray-600 dark:text-gray-300 mt-32">
           Find Me on
         </p>
         <div className="flex mt-3 mb-20">

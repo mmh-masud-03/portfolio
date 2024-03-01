@@ -1,8 +1,8 @@
-// ResumePage.js
+// components/ResumePage.tsx
 
 import React from "react";
 
-const Resume = () => {
+const ResumePage: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-2 flex flex-col">
       <div className="mb-2 flex justify-end">
@@ -16,8 +16,8 @@ const Resume = () => {
       </div>
       <div className="flex-1 border border-gray-100 rounded-lg overflow-hidden">
         <iframe
-          src="/Resume_1March.pdf#toolbar=0"
-          className="w-full h-screen bg-transparent"
+          src="/Resume_1March.svg#toolbar=0"
+          className="w-full sm:w-full h-screen sm:h-screen bg-transparent"
           title="Resume Preview"
           style={{ background: "transparent" }}
         ></iframe>
@@ -26,4 +26,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default ResumePage;
