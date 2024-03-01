@@ -8,15 +8,15 @@ import ToolsAndTechnologies from "./components/ToolsAndTechnologies";
 export default function Home() {
   return (
     <main className="container mx-auto px-4">
-      <div className="flex flex-col md:flex-row justify-center items-center">
-        <div className="w-full md:w-1/2 mb-8 md:mb-0 md:mr-10">
+      <div className="flex flex-col md:ml-4git md:flex-row justify-center items-center">
+        <div className="w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
             Hi There
           </h1>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 pb-9">
             Welcome to My Portfolio
           </h1>
-          <p className="text-sm md:text-xl line-clamp-2">
+          <p className="text-sm md:text-xl line-clamp-1 py-2">
             <TypeAnimation
               sequence={[
                 "I'm a React.js Developer",
