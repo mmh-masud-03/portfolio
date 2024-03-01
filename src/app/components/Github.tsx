@@ -3,8 +3,8 @@ import GitHubCalendar from "react-github-calendar";
 
 function Github() {
   return (
-    <div className="">
-      <h1 className="text-3xl p-10">
+    <div className="max-w-full overflow-hidden">
+      <h1 className="text-3xl p-5 md:p-10">
         Days I <strong>Code</strong>
       </h1>
       <GitHubCalendar

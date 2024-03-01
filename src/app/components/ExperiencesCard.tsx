@@ -26,11 +26,11 @@ const resources = [
 ];
 function ExperiencesCard() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-8 mt-8 mb-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-8 mt-8 mb-6">
       {resources.map((resource) => (
         <div
           key={resource.organization}
-          className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden px-5"
+          className="bg-white dark:bg-gray-800 shadow-lg mx-auto rounded-lg overflow-hidden px-5"
         >
           <div className="relative mx-auto h-48 w-60">
             <a href={resource.url}>

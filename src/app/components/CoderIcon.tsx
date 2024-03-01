@@ -4,8 +4,8 @@ function CoderIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="500"
-      height="500"
+      width="450"
+      height="450"
       version="1.1"
       viewBox="0 0 2829.333 2829.333"
       xmlSpace="preserve"
