@@ -11,7 +11,7 @@ import {
 const NavBar: React.FC = () => {
   return (
     <nav className=" w-full bg-gray-800 p-4 md:flex">
-      <div className="flex items-center space-x-5">
+      <div className="flex items-center ">
         <NavItem icon={<FaHome />} label="Home" href="/" />
         <NavItem
           icon={<FaProjectDiagram />}
