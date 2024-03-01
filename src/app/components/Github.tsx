@@ -3,7 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 
 function Github() {
   return (
-    <div>
+    <div className="">
       <h1 className="text-3xl p-10">
         Days I <strong>Code</strong>
       </h1>

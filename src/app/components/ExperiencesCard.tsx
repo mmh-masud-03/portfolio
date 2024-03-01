@@ -26,7 +26,7 @@ const resources = [
 ];
 function ExperiencesCard() {
   return (
-    <div className="flex flex-row  gap-8 mt-8 mb-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-8 mt-8 mb-6">
       {resources.map((resource) => (
         <div
           key={resource.organization}
