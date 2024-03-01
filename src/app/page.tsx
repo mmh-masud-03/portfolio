@@ -8,7 +8,7 @@ import ToolsAndTechnologies from "./components/ToolsAndTechnologies";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-row mx-12 justify-center items-center ">
+      <div className="flex flex-row mx-auto justify-center items-center ">
         <div className="w-1/2 ">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
             Hi There
@@ -40,7 +40,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="ml-5">
+        <div className="w-1/3">
           <CoderIcon />
         </div>
       </div>
