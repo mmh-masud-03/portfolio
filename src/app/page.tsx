@@ -8,7 +8,7 @@ import ToolsAndTechnologies from "./components/ToolsAndTechnologies";
 export default function Home() {
   return (
     <main className="container mx-auto px-4">
-      <div className="flex flex-col md:ml-4git md:flex-row justify-center items-center">
+      <div className="flex flex-col  md:ml-4 md:flex-row justify-center items-center">
         <div className="w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
             Hi There
@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 pb-9">
             Welcome to My Portfolio
           </h1>
-          <p className="text-sm md:text-xl line-clamp-1 py-2">
+          <p className="text-xs md:text-sm lg:text-xl line-clamp-1 py-2">
             <TypeAnimation
               sequence={[
                 "I'm a React.js Developer",
@@ -31,7 +31,7 @@ export default function Home() {
               speed={50}
               repeat={Infinity}
               style={{
-                fontSize: "2em",
+                fontSize: "1.8em",
                 fontWeight: "bold",
                 color: "#4B5563",
               }}
