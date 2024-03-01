@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col  md:ml-4 md:flex-row justify-center items-center">
         <div className="w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
-            Hi There
+            Hi There,
           </h1>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 pb-9">
             Welcome to My Portfolio
