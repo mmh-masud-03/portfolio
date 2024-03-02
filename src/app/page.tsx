@@ -45,11 +45,11 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center justify-center py-12">
-        <p className="text-xl md:text-3xl font-bold text-gray-800 mb-10">
+        <p className="text-lg md:text-3xl font-bold text-gray-800 mb-10">
           Tools And Technologies I Use
         </p>
         <ToolsAndTechnologies />
-        <p className="text-xl md:text-3xl font-bold text-gray-600 dark:text-gray-300 mt-32">
+        <p className="text-lg md:text-3xl font-bold text-gray-600 dark:text-gray-300 mt-32">
           Find Me on
         </p>
         <div className="flex mt-3 mb-20">
