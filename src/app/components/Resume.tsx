@@ -8,7 +8,7 @@ const ResumePage: React.FC = () => {
       <span>*download for better quality</span>
       <div className="mb-2 flex justify-end">
         <a
-          href="/Resume_1March.pdf"
+          href="/Resume_Masud.pdf"
           download
           className="bg-blue-500 text-white font-semibold px-4 py-2 rounded hover:bg-blue-600"
         >
@@ -17,7 +17,7 @@ const ResumePage: React.FC = () => {
       </div>
       <div className="flex-1 border md:ml-32 border-gray-100 rounded-lg overflow-hidden">
         <iframe
-          src="/Resume_1March.svg#toolbar=0"
+          src="/Resume_Masud.svg#toolbar=0"
           className="w-full sm:w-full h-screen sm:h-screen bg-transparent"
           title="Resume Preview"
           style={{ background: "transparent" }}
