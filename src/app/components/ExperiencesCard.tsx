@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 const resources = [
   {
-    organization: "Expert Consortium LTD",
-    logo: "/images/kutir.jpg",
+    organization: "Kutir IT",
+    logo: "/images/kutirit.jpg",
     url: "https://www.linkedin.com/company/k-limited/mycompany/",
     position: "Frontend Developer",
     technologies: ["Next.Js", "TypeScript", "Tailwind CSS"],
