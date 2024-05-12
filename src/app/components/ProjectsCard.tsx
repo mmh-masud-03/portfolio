@@ -2,6 +2,15 @@ import React from "react";
 import Image from "next/image";
 const portfolioData = [
   {
+    title: "Chat Application",
+    description:
+      "A realtime chat applicatio where you can create and login to your account then select one or more contacts to start a chat. You will always see the last message first and send any image or text. Check live demo for more.",
+    image: "/images/convosphere.png",
+    url: "https://next-chat-convosphere.vercel.app/",
+    github: "https://github.com/mmh-masud-03/next-chat",
+    tech: ["PusherJS", "Next-Auth", "Cloudinary"],
+  },
+  {
     title: "Todo App",
     description:
       "A simple todo app built with React and Next.js where you can add, delete, and mark as complete or incomplete your tasks then filter them by all, active, and completed.",
@@ -19,15 +28,15 @@ const portfolioData = [
     github: "https://github.com/mmh-masud-03/Blog_React",
     tech: ["React.js", "Markdown", "CSS"],
   },
-  {
-    title: "E-commerce Site",
-    description:
-      "A mock e-commerce site built with Next.js and Stripe. It has a cart functionality and a checkout page. The products are fetched from a local JSON file. The payment is handled by Stripe.",
-    image: "/images/coming-soon.png",
-    url: "#",
-    github: "https://github.com/",
-    tech: ["Next.js", "Stripe", "Tailwind CSS"],
-  },
+  // {
+  //   title: "E-commerce Site",
+  //   description:
+  //     "A mock e-commerce site built with Next.js and Stripe. It has a cart functionality and a checkout page. The products are fetched from a local JSON file. The payment is handled by Stripe.",
+  //   image: "/images/coming-soon.png",
+  //   url: "#",
+  //   github: "https://github.com/",
+  //   tech: ["Next.js", "Stripe", "Tailwind CSS"],
+  // },
   {
     title: "Resort Site",
     description:

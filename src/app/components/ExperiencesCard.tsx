@@ -5,11 +5,11 @@ const resources = [
     organization: "Kutir IT",
     logo: "/images/kutirit.jpg",
     url: "https://www.linkedin.com/company/k-limited/mycompany/",
-    position: "Frontend Developer",
+    position: "Frontend Developer Intern",
     technologies: ["Next.Js", "TypeScript", "Tailwind CSS"],
     time: {
       starting: "1 January 2024",
-      ending: "Present",
+      ending: "30 April 2024",
     },
   },
   {
