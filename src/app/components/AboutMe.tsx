@@ -15,7 +15,7 @@ const AboutMe = () => {
           </div>
           <div>
             <p className="text-gray-700 mb-4">
-              Greetings! I'm Masud, a versatile full-stack developer with a
+              Greetings! I&apos;m Masud, a versatile full-stack developer with a
               strong focus on Next.js, React, and modern web technologies. With
               experiences in building robust and scalable applications, I have
               honed my skills in crafting seamless user experiences and
@@ -36,7 +36,7 @@ const AboutMe = () => {
               requirements of each project.
             </p>
             <p className="text-gray-700 mb-4">
-              I'm passionate about staying up-to-date with the latest industry
+              I&apos;m passionate about staying up-to-date with the latest industry
               trends and continuously expanding my knowledge.
             </p>
             <a
