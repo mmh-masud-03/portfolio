@@ -16,7 +16,7 @@ const NavItem: React.FC<{
       <div
         className={
           `flex items-center text-xl mx-5 hover:scale-95 ${
-            isActive ? "font-bold text-blue-300" : "text-white"
+            isActive ? "font-bold text-purple-300" : "text-white"
           }` // Apply bold font if active
         }
       >

@@ -2,9 +2,18 @@ import React from "react";
 import Image from "next/image";
 const portfolioData = [
   {
+    title: "Ecommerce Platform",
+    description:
+      "A full-stack e-commerce application where you can create and login to your account then select one or more products to add to the cart or wishlist and place order. You can serach and filter products. Check live demo for more.",
+    image: "/images/ecommerce.png",
+    url: "https://gadget-hub-store.vercel.app/",
+    github: "https://github.com/mmh-masud-03/ecommerce",
+    tech: ["NextJS", "Redux Toolkit", "MongoDB", "Tailwind CSS"],
+  },
+  {
     title: "Chat Application",
     description:
-      "A realtime chat applicatio where you can create and login to your account then select one or more contacts to start a chat. You will always see the last message first and send any image or text. Check live demo for more.",
+      "A realtime chat application where you can create and login to your account then select one or more contacts to start a chat. You will always see the last message first and send any image or text. Check live demo for more.",
     image: "/images/convosphere.png",
     url: "https://next-chat-convosphere.vercel.app/",
     github: "https://github.com/mmh-masud-03/next-chat",
