@@ -40,7 +40,7 @@ const AboutMe = () => {
               trends and continuously expanding my knowledge.
             </p>
             <a
-              href="/Masud_Resume.pdf"
+              href="/Masud_Hossen_Resume.pdf"
               className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-md transition-colors duration-300"
               download
             >
