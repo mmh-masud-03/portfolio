@@ -36,11 +36,11 @@ const AboutMe = () => {
               requirements of each project.
             </p>
             <p className="text-gray-700 mb-4">
-              I&apos;m passionate about staying up-to-date with the latest industry
-              trends and continuously expanding my knowledge.
+              I&apos;m passionate about staying up-to-date with the latest
+              industry trends and continuously expanding my knowledge.
             </p>
             <a
-              href="/Masud_Hossen_Resume.pdf"
+              href="/Masud_Resume.pdf"
               className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-md transition-colors duration-300"
               download
             >
