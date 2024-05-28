@@ -2,8 +2,8 @@ import ProjectsCard from "../components/ProjectsCard";
 
 function page() {
   return (
-    <div className="mx-5">
-      <p className="text-4xl font-semibold mt-6 ml-12">Projects I have done</p>
+    <div className="mx-5 mt-16">
+      <p className="text-4xl font-semibold text-center">Projects I have done</p>
       <ProjectsCard />
     </div>
   );

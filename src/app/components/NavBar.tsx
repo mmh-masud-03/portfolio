@@ -10,7 +10,7 @@ import {
 
 const NavBar: React.FC = () => {
   return (
-    <nav className=" w-full bg-gray-800 p-4 md:flex">
+    <nav className="fixed top-0 left-0 right-0  w-full bg-gray-800 p-4 md:flex z-50 ">
       <div className="flex items-center ">
         <NavItem icon={<FaHome />} label="Home" href="/" />
         <NavItem

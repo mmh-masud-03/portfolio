@@ -8,7 +8,7 @@ import AboutMe from "./components/AboutMe";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-4">
+    <main className="container mx-auto px-4 mt-6">
       <div className="flex flex-col  md:ml-4 md:flex-row justify-between items-center">
         <div className="w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">

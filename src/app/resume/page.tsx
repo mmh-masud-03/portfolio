@@ -2,7 +2,7 @@ import Resume from "../components/Resume";
 
 function page() {
   return (
-    <div>
+    <div className="mt-16">
       <Resume />
     </div>
   );
