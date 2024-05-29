@@ -2,7 +2,7 @@ import Resume from "../components/Resume";
 
 function page() {
   return (
-    <div className="mt-16">
+    <div className=" animate-fade-in-up mt-16">
       <Resume />
     </div>
   );

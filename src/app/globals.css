@@ -5,4 +5,5 @@
 body {
   @apply font-mono; /* Apply Tailwind's monospace font utility */
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }

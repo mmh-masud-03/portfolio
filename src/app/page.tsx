@@ -8,9 +8,9 @@ import AboutMe from "./components/AboutMe";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-4 mt-6">
+    <main className="container animate-fade-in-up mx-auto px-4 mt-6">
       <div className="flex flex-col  md:ml-4 md:flex-row justify-between items-center">
-        <div className="w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
+        <div className=" animate-fade-in-up w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
             Hi There, I am Masud
           </h1>
@@ -39,7 +39,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="w-full md:w-1/3 mb-8 md:mb-0 flex justify-center">
+        <div className=" w-full md:w-1/3 mb-8 md:mb-0 flex justify-center">
           <CoderIcon />
         </div>
       </div>

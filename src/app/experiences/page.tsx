@@ -3,7 +3,7 @@ import Github from "../components/Github";
 
 function page() {
   return (
-    <div className="flex flex-col mx-auto justify-center items-center mt-10">
+    <div className="flex animate-fade-in-up flex-col mx-auto justify-center items-center mt-10">
       <p className="mt-6 text-2xl md:text-3xl font-bold">
         Where I worked before
       </p>
