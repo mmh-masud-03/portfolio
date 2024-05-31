@@ -93,7 +93,19 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        <div className="flex flex-col items-start">
+          <p className="text-2xl font-bold my-4 text-left">Achievements:</p>
+          <span>
+            Placed second runners up in Inter University Arduino Programming
+            Contest
+          </span>
+          <Image
+            src={"/images/robotics/Runners up.jpg"}
+            alt="Runners up"
+            width={900}
+            height={500}
+          />
+        </div>
         <Github />
       </div>
     </main>
