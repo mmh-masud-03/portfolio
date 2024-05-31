@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <img
-              src="/images/pic final.png"
+              src="/images/Masud Pic.jpeg"
               alt="Profile Picture"
               className="w-full rounded-lg shadow-lg"
             />

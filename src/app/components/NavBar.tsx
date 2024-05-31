@@ -15,13 +15,13 @@ const NavBar: React.FC = () => {
         <NavItem icon={<FaHome />} label="Home" href="/" />
         <NavItem
           icon={<FaProjectDiagram />}
-          label="Projects"
+          label="Software Projects"
           href="/projects"
         />
         <NavItem icon={<FaUserTie />} label="Experiences" href="/experiences" />
         <NavItem
           icon={<FaBookOpen />}
-          label="Extracurricular Activities"
+          label="Embedded Projects"
           href="/extra"
         />
         <NavItem icon={<FaFileAlt />} label="Resume" href="/resume" />

@@ -5,10 +5,11 @@ import CoderIcon from "./components/CoderIcon";
 import Github from "./components/Github";
 import ToolsAndTechnologies from "./components/ToolsAndTechnologies";
 import AboutMe from "./components/AboutMe";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="container animate-fade-in-up mx-auto px-4 mt-6">
+    <main className="container animate-fade-in-up mx-auto px-4 mt-11 md:mt-6">
       <div className="flex flex-col  md:ml-4 md:flex-row justify-between items-center">
         <div className=" animate-fade-in-up w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
@@ -93,18 +94,41 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-start">
-          <p className="text-2xl font-bold my-4 text-left">Achievements:</p>
-          <span>
-            Placed second runners up in Inter University Arduino Programming
-            Contest
-          </span>
-          <Image
-            src={"/images/robotics/Runners up.jpg"}
-            alt="Runners up"
-            width={900}
-            height={500}
-          />
+        <div className="flex flex-col md:flex-row gap-4 mt-5">
+          <div className="flex flex-col items-start w-3/4 h-full mx-auto">
+            <p className="text-3xl font-bold my-4 text-left">Achievements:</p>
+            <span className="py-2">
+              Placed second runners up in Inter University Arduino Programming
+              Contest arranged by BUP Robotics Club
+            </span>
+            <Image
+              src={"/images/robotics/Runners up.jpg"}
+              alt="Runners up"
+              width={900}
+              height={500}
+            />
+          </div>
+          <div className="md:w-1/4 h-full px-6 py-10 my-auto  font-semibold bg-slate-200">
+            <p className="text-2xl">
+              I am compatiable with both hardware and software projects.
+              Checkout my previous works
+            </p>
+            <p className="flex flex-col gap-2 mt-3">
+              <Link
+                href={"/projects"}
+                className="bg-purple-300 px-4 py-2 rounded-lg"
+              >
+                Software Projects
+              </Link>
+
+              <Link
+                href={"/extra"}
+                className="bg-purple-300 px-4 py-2 rounded-lg mt-3"
+              >
+                Embedded Projects
+              </Link>
+            </p>
+          </div>
         </div>
         <Github />
       </div>

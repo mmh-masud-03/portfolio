@@ -8,7 +8,7 @@ const ResumePage: React.FC = () => {
       <span>*download for better quality</span>
       <div className="mb-2 flex justify-end">
         <a
-          href="/Masud_Resume.pdf"
+          href="/Masud_Hossen_Resume.pdf"
           download
           className="bg-blue-500 text-white font-semibold px-4 py-2 rounded hover:bg-blue-600"
         >
