@@ -31,7 +31,7 @@ const portfolioData = [
   {
     title: "Todo App",
     description:
-      "A simple todo app built with React and Next.js where you can add, delete, and mark as complete or incomplete your tasks then filter them by all, active, and completed.",
+      "A simple todo app built with React, Express and MongoDB following MVC pattern where you can add, delete, and mark as complete or incomplete your tasks then filter them by all, active, and completed.",
     image: "/images/todo-full.png",
     url: "#",
     github: "https://github.com/mmh-masud-03/todo-next",
