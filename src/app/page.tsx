@@ -9,15 +9,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="container animate-fade-in-up mx-auto px-4 mt-11 md:mt-6">
+    <main className="container animate-fade-in-up mx-auto px-4 mt-11 md:mt-6 ">
       <div className="flex flex-col  md:ml-4 md:flex-row justify-between items-center">
         <div className=" animate-fade-in-up w-full md:w-1/2 mb-8 md:pb-8 md:mr-10">
-          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 py-5">
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 py-5">
             Hi There, I am Masud
           </h1>
-          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 pb-9">
-            Welcome to My Portfolio
-          </h1>
+
           <p className="text-xs md:text-sm lg:text-xl line-clamp-1 py-2">
             <TypeAnimation
               sequence={[
@@ -60,7 +58,7 @@ export default function Home() {
             </div>
             <div className=" w-full bg-gradient-to-bl from-purple-50 to-purple-200 text-center mt-3 shadow-md h-full rounded-md">
               {" "}
-              <p className="text-lg md:text-xl font-bold text-gray-600 dark:text-gray-300 mt-10 ">
+              <p className="text-lg md:text-xl font-bold text-gray-600 mt-10 ">
                 Find Me on
               </p>
               <div className="flex mt-3 mb-20 justify-center">

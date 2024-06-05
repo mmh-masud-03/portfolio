@@ -76,7 +76,7 @@ function RoboticsProjects() {
         {projectData.map((project) => (
           <div
             key={project.title}
-            className="bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden"
+            className="bg-white  shadow-lg rounded-lg overflow-hidden"
           >
             <div className="relative h-48 hover:scale-150 p-2">
               <Image
@@ -87,18 +87,16 @@ function RoboticsProjects() {
               />
             </div>
             <div className="p-4">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="text-xl font-semibold text-gray-900 ">
                 {project.title}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 mt-2">
-                {project.description}
-              </p>
+              <p className="text-gray-600  mt-2">{project.description}</p>
 
               <div className="flex flex-wrap mt-4">
                 {project.tech.map((tech) => (
                   <span
                     key={tech}
-                    className="text-sm text-gray-600 dark:text-gray-300 bg-gray-200 dark:bg-gray-700 py-1 px-2 rounded mr-2 mb-2"
+                    className="text-sm text-gray-600 bg-gray-200 py-1 px-2 rounded mr-2 mb-2"
                   >
                     {tech}
                   </span>

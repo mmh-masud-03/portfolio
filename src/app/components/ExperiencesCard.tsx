@@ -30,7 +30,7 @@ function ExperiencesCard() {
       {resources.map((resource) => (
         <div
           key={resource.organization}
-          className="bg-white dark:bg-gray-800 shadow-lg mx-auto rounded-lg overflow-hidden px-5"
+          className="bg-white shadow-lg mx-auto rounded-lg overflow-hidden px-5"
         >
           <div className="relative mx-auto h-48 w-60">
             <a href={resource.url}>
@@ -44,10 +44,10 @@ function ExperiencesCard() {
             </a>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+            <h3 className="text-xl font-semibold text-gray-900 ">
               {resource.organization}
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">
+            <p className="text-gray-600  mt-2">
               {resource.position}
             </p>
           </div>
@@ -58,7 +58,7 @@ function ExperiencesCard() {
             {resource.technologies.map((tech) => (
               <span
                 key={tech}
-                className="text-sm text-gray-600 dark:text-gray-300 bg-gray-200 dark:bg-gray-700 py-1 px-2 rounded mr-2 mb-2"
+                className="text-sm text-gray-600 bg-gray-200 py-1 px-2 rounded mr-2 mb-2"
               >
                 {tech}
               </span>
