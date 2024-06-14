@@ -8,7 +8,7 @@ function page() {
         Where I worked before
       </p>
       <ExperiencesCard />
-      <Github />
+      {/* <Github /> */}
     </div>
   );
 }

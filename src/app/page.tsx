@@ -128,7 +128,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Github />
+        {/* <Github /> */}
       </div>
     </main>
   );
